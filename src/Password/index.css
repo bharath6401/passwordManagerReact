@@ -1,0 +1,123 @@
+.d-flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.main-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.password-manage-img {
+  width: 170px;
+}
+.bg-y {
+  background-color: yellow;
+}
+.bg-w {
+  background-color: white;
+}
+.bg-0 {
+  background-color: orange;
+}
+.w-8 {
+  width: 80%;
+}
+.w-100 {
+  width: 100%;
+}
+.mt-1 {
+  margin-top: 10px;
+}
+
+.heading-add-n-psd {
+  font-size: 20px;
+  color: white;
+}
+
+.p-1 {
+  padding: 10px;
+}
+.p-2 {
+  padding: 20px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+}
+.add-input-image-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+}
+
+.add-new-psd-container {
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.add-button {
+  width: 50px;
+  height: 30px;
+  align-self: flex-end;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+.pm-image {
+  width: 200px;
+  height: fit-content;
+}
+
+.checkbox {
+  width: 14px;
+  /* border: none;
+  border-radius: 5px; */
+}
+label {
+  font-size: small;
+}
+.flex-wrap-wrap {
+  flex-wrap: wrap;
+}
+* {
+  box-sizing: border-box;
+}
+
+.no-psd-image {
+  width: 50%;
+  height: auto;
+}
+
+.no-of-psd {
+  margin-left: 10px;
+  border: solid 1px white;
+  padding: 3px;
+  border-radius: 3px;
+}
